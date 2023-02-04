@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Allerta+Stencil&family=Anton&family=Caveat&family=Cinzel&family=Merriweather:ital@0;1&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display+SC:ital,wght@0,400;1,900&family=Poppins:ital,wght@0,400;1,300&family=Prosto+One&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&family=Seymour+One&family=Shadows+Into+Light&family=Sofia+Sans&family=Sofia+Sans+Extra+Condensed&family=Uchen&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+body{
+    background: linear-gradient( #e0eafc      ,  #cfdef3);
+    font-family: 'Merriweather', serif;
+}
+    /* nav bar */
+nav{
+    background: #b2744c;
+    
+}    
+nav  #logo{
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+nav ul  {
+    margin-left: 100px;
+}
+ul li .nav-link {
+    color:black;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.582);
+    margin-left: 20px;
+}
+ul li .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 7px;
+    transition: 0.5s ;
+}
+#btnsearch{
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+}
+/* navbar end */
+
+@media (max-width:500px) {
+    nav #logo{
+        width: 100px;
+        height: 35px;
+       
+    }
+    
+}
+
+/* home page start */
+#background{
+    background-image: url(./coffeeimage/bc3.png);
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: 88%;
+}
+ .content{
+    margin-top: 200px;
+    margin-left: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+.content button{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height:40px;
+    font-weight: bold;
+}
+.content button:hover{
+    color:white;
+    background-color: #b2744c;
+    transition: 0.3s;
+    font-weight: bold;
+}
+/* home page end */
+
+/* About me section start */
+
+.container h1{
+    text-align: center;
+    color: black;
+}
+.container h1 span{
+    color: #b2744c;
+}
+.Aboutsctn{
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.282);
+    border-radius: 8px;
+    transition: 1s;
+    cursor: pointer;
+}
+.Aboutsctn:hover{
+    transform: scale(1.05) ;
+    z-index: 2;
+}
+#abtimg{
+width: 100%;
+border-radius: 8px;
+}
+
+.row h2{
+    color: black;
+}
+.row .learnmore{
+    width: 150px;
+   border: #b2744c 1px solid;
+   border-radius: 5px;
+   background: linear-gradient( #e0eafc      ,  #cfdef3);
+   color: #b2744c;
+font-weight: bold;
+}
+.row .learnmore:hover{
+    color:white;
+    background: #b2744c;
+    transition: 0.5s;
+    font-weight: bold;
+}
+#abtpara{
+    color: black;
+}
+/* About US section end */
+
+/* Top card section start */
+
+.heading2{
+    text-align: center;
+  color: black;
+   font-size: 37px;
+}
+.heading2 span{
+    color: #b2744c;
+}
+#top-cards .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#top-cards .card img{
+    border-radius: 10px;
+}
+#top-cards .card:hover{
+    transform: translateY(-10px);
+}
+/* top card section end */
+
+
+/* menu start */
+
+#menu .container h1{
+    color: #b2744c;
+}
+
+.menuone{
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 1px 1.5px 1px 1.5px rgba(0, 0, 0, 0.282);
+    padding-bottom: 10px;
+}
+.card-body .star{
+    color: #b2744c;
+}
+.card-body h3{
+    text-align: center;
+    color: #b2744c;
+}
+.card-body p,span{
+    color: #b2744c;
+}
+.card-body span{
+   padding-left: 215px;
+}
+.prdt{
+    background-color: white;
+    padding-bottom: 10px;
+    box-shadow: 1px 1.5px 1px 1.5px rgba(0, 0, 0, 0.282);
+    border-radius: 10px;
+
+}
+.prdt img{
+padding-top: 10px;
+}
+/* menu end */
+
+/* gallery start */
+
+#gallery .container div h1{
+    color:black;
+}
+#gallery .container div h1 span{
+color: #b2744c;
+}
+#gallery .galimg{
+    cursor: pointer;
+    transition: 0.5s;
+} 
+#gallery .galimg:hover{
+transform: scale(1.07);
+}
+/* gallery end */
+
+/* contact section start */
+#contact .container{
+    background: linear-gradient( 90deg ,  white 80%, #e47830 20%);
+}
+ #contactbtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: #b2744c;
+    border: none;
+}
+#contact .info h2,#cntpara{
+    text-align: left;
+    color: white;
+}
+
+/* contact section end */
+
+/* latest blog start */
+.blogs p{
+    text-align: justify;
+    color: black;
+}
+.blogs h2{
+    color: #b2744c;
+}
+.blogsbtn{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: #b2744c;
+    border: none; 
+}
+.blogs{
+    background-color: white;
+    padding: 10px;
+}
+/* latest blog end */
+
+/* footer start */
+
+
+footer .last{
+    background-color: #b2744c;
+}
+#footericon{
+    text-align: center;
+}
+/* footer end */
